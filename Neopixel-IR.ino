@@ -7,7 +7,7 @@
 
 // neopixel + IR is hard, neopixel disables interrups while IR is trying to 
 // receive, and bad things happen :(
-// https://github.com/z3t0/Arduino-IRremote/issues/314G
+// https://github.com/z3t0/Arduino-IRremote/issues/314
 // strip.show takes 1 to 3ms
 
 #define RECV_PIN 2
