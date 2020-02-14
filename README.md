@@ -11,6 +11,8 @@ It supports 6 different libraries, 2 for IR and 4 for Neopixels:
 - https://github.com/MartyMacGyver/ESP32-Digital-RGB-LED-Drivers
 and it allows running neopixel animations on all 4 backends while using the same common code
 
+ESP32 is now supported in FastLED, if you use ESP32 and FastLED, please see https://github.com/marcmerlin/FastLED-IR
+
 Supported/tested chips are:
 - basic AVRs like Uno/328p, Mega, Leonardo and so forth - they only allow concurrent IR if you remove interrupt disabling in the neopixel library, or you can update the neopixel strip and then listen for IR for a while.
 - Teensy v3.1 - this allows talking to neopixels _while_ listening for IR
